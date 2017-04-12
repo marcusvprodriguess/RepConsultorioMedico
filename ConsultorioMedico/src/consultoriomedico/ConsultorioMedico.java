@@ -4,7 +4,7 @@ package consultoriomedico;
 /**
  *
  * @author 
- * Jessical maria ssdsadas
+ * Jessical maria ssdshadas
  */
 public class ConsultorioMedico {
 
