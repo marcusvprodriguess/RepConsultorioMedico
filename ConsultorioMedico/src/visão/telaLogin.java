@@ -42,12 +42,12 @@ public class telaLogin extends javax.swing.JFrame {
         jLabelUsuario.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabelUsuario.setText("Usuário:");
         getContentPane().add(jLabelUsuario);
-        jLabelUsuario.setBounds(200, 90, 50, 15);
+        jLabelUsuario.setBounds(200, 70, 50, 15);
 
         jLabelSenha.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabelSenha.setText("Senha:");
         getContentPane().add(jLabelSenha);
-        jLabelSenha.setBounds(200, 120, 38, 15);
+        jLabelSenha.setBounds(200, 100, 38, 15);
 
         jButton1.setText("Sair");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -56,11 +56,11 @@ public class telaLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(310, 160, 75, 25);
+        jButton1.setBounds(310, 140, 75, 25);
 
         jButtonAcessarLogin.setText("Acessar");
         getContentPane().add(jButtonAcessarLogin);
-        jButtonAcessarLogin.setBounds(220, 160, 75, 25);
+        jButtonAcessarLogin.setBounds(220, 140, 75, 25);
 
         jPasswordFieldSenha.setText("jPasswordField1");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +69,7 @@ public class telaLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jPasswordFieldSenha);
-        jPasswordFieldSenha.setBounds(250, 120, 130, 25);
+        jPasswordFieldSenha.setBounds(250, 100, 130, 25);
 
         jTextFieldUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,7 +77,7 @@ public class telaLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextFieldUsuario);
-        jTextFieldUsuario.setBounds(250, 90, 130, 25);
+        jTextFieldUsuario.setBounds(250, 70, 130, 25);
 
         jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo.cruz.png"))); // NOI18N
         getContentPane().add(jLabelLogo);
