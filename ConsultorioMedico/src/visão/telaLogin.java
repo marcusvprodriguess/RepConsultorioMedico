@@ -50,6 +50,11 @@ public class telaLogin extends javax.swing.JFrame {
         jLabelSenha.setBounds(200, 120, 38, 15);
 
         jButton1.setText("Sair");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
         jButton1.setBounds(330, 170, 70, 23);
 
@@ -74,6 +79,10 @@ public class telaLogin extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(461, 273));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
