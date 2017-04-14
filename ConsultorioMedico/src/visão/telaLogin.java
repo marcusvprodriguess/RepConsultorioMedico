@@ -29,6 +29,8 @@ public class telaLogin extends javax.swing.JFrame {
 
         jLabelUsuario = new javax.swing.JLabel();
         jLabelSenha = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButtonAcessarLogin = new javax.swing.JButton();
         jPasswordFieldSenha = new javax.swing.JPasswordField();
         jTextFieldUsuario = new javax.swing.JTextField();
         jLabelLogo = new javax.swing.JLabel();
@@ -46,6 +48,14 @@ public class telaLogin extends javax.swing.JFrame {
         jLabelSenha.setText("Senha:");
         getContentPane().add(jLabelSenha);
         jLabelSenha.setBounds(200, 120, 38, 15);
+
+        jButton1.setText("Sair");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(330, 170, 70, 23);
+
+        jButtonAcessarLogin.setText("Acessar");
+        getContentPane().add(jButtonAcessarLogin);
+        jButtonAcessarLogin.setBounds(220, 170, 71, 23);
 
         jPasswordFieldSenha.setText("jPasswordField1");
         getContentPane().add(jPasswordFieldSenha);
@@ -101,6 +111,8 @@ public class telaLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButtonAcessarLogin;
     private javax.swing.JLabel jLabelFundoTelaLogin;
     private javax.swing.JLabel jLabelLogo;
     private javax.swing.JLabel jLabelSenha;
