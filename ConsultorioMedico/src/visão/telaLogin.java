@@ -56,17 +56,28 @@ public class telaLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(330, 170, 70, 23);
+        jButton1.setBounds(310, 160, 75, 25);
 
         jButtonAcessarLogin.setText("Acessar");
         getContentPane().add(jButtonAcessarLogin);
-        jButtonAcessarLogin.setBounds(220, 170, 71, 23);
+        jButtonAcessarLogin.setBounds(220, 160, 75, 25);
 
         jPasswordFieldSenha.setText("jPasswordField1");
+        jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jPasswordFieldSenhaActionPerformed(evt);
+            }
+        });
         getContentPane().add(jPasswordFieldSenha);
-        jPasswordFieldSenha.setBounds(250, 120, 130, 20);
+        jPasswordFieldSenha.setBounds(250, 120, 130, 25);
+
+        jTextFieldUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldUsuarioActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextFieldUsuario);
-        jTextFieldUsuario.setBounds(250, 90, 130, 20);
+        jTextFieldUsuario.setBounds(250, 90, 130, 25);
 
         jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo.cruz.png"))); // NOI18N
         getContentPane().add(jLabelLogo);
@@ -76,13 +87,21 @@ public class telaLogin extends javax.swing.JFrame {
         getContentPane().add(jLabelFundoTelaLogin);
         jLabelFundoTelaLogin.setBounds(0, -20, 450, 260);
 
-        setSize(new java.awt.Dimension(461, 273));
+        setSize(new java.awt.Dimension(448, 273));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jPasswordFieldSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordFieldSenhaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordFieldSenhaActionPerformed
+
+    private void jTextFieldUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldUsuarioActionPerformed
 
     /**
      * @param args the command line arguments
