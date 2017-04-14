@@ -59,9 +59,9 @@ public class telaLogin extends javax.swing.JFrame {
 
         jLabelFundoTelaLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundotelaLogin.jpg"))); // NOI18N
         getContentPane().add(jLabelFundoTelaLogin);
-        jLabelFundoTelaLogin.setBounds(0, 0, 428, 270);
+        jLabelFundoTelaLogin.setBounds(0, -20, 450, 280);
 
-        pack();
+        setSize(new java.awt.Dimension(461, 299));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
