@@ -30,6 +30,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jMenuBarTelaPrincipal = new javax.swing.JMenuBar();
         jMenuCadastro = new javax.swing.JMenu();
+        jMenuItemCadEspecialidade = new javax.swing.JMenuItem();
+        jMenuItemCadFuncionario = new javax.swing.JMenuItem();
+        jMenuItemCadMedico = new javax.swing.JMenuItem();
+        jMenuItemCadUsuario = new javax.swing.JMenuItem();
         jMenuAgenda = new javax.swing.JMenu();
         jMenuRelatorio = new javax.swing.JMenu();
         jMenuSair = new javax.swing.JMenu();
@@ -45,6 +49,24 @@ public class TelaPrincipal extends javax.swing.JFrame {
         });
 
         jMenuCadastro.setText("Cadastros");
+
+        jMenuItemCadEspecialidade.setText("Nova Especialidade");
+        jMenuItemCadEspecialidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemCadEspecialidadeActionPerformed(evt);
+            }
+        });
+        jMenuCadastro.add(jMenuItemCadEspecialidade);
+
+        jMenuItemCadFuncionario.setText("Novo Funcionário");
+        jMenuCadastro.add(jMenuItemCadFuncionario);
+
+        jMenuItemCadMedico.setText("Novo Médico");
+        jMenuCadastro.add(jMenuItemCadMedico);
+
+        jMenuItemCadUsuario.setText("Novo Usuário");
+        jMenuCadastro.add(jMenuItemCadUsuario);
+
         jMenuBarTelaPrincipal.add(jMenuCadastro);
 
         jMenuAgenda.setText("Agenda");
@@ -82,6 +104,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jMenuItemCadEspecialidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadEspecialidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItemCadEspecialidadeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -123,6 +149,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenuAgenda;
     private javax.swing.JMenuBar jMenuBarTelaPrincipal;
     private javax.swing.JMenu jMenuCadastro;
+    private javax.swing.JMenuItem jMenuItemCadEspecialidade;
+    private javax.swing.JMenuItem jMenuItemCadFuncionario;
+    private javax.swing.JMenuItem jMenuItemCadMedico;
+    private javax.swing.JMenuItem jMenuItemCadUsuario;
     private javax.swing.JMenu jMenuRelatorio;
     private javax.swing.JMenu jMenuSair;
     // End of variables declaration//GEN-END:variables
