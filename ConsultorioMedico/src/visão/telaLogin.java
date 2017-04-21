@@ -81,7 +81,7 @@ public class telaLogin extends javax.swing.JFrame {
 
         jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo.cruz.png"))); // NOI18N
         getContentPane().add(jLabelLogo);
-        jLabelLogo.setBounds(20, 50, 134, 120);
+        jLabelLogo.setBounds(20, 40, 134, 120);
 
         jLabelFundoTelaLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundotelaLogin.jpg"))); // NOI18N
         getContentPane().add(jLabelFundoTelaLogin);
