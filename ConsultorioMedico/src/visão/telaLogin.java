@@ -67,7 +67,6 @@ public class telaLogin extends javax.swing.JFrame {
         getContentPane().add(jButtonAcessarLogin);
         jButtonAcessarLogin.setBounds(220, 140, 75, 25);
 
-        jPasswordFieldSenha.setText("jPasswordField1");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordFieldSenhaActionPerformed(evt);
