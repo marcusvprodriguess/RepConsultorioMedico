@@ -28,6 +28,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         jButtonAddConsulta = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         jMenuBarTelaPrincipal = new javax.swing.JMenuBar();
         jMenuCadastro = new javax.swing.JMenu();
         jMenuItemCadEspecialidade = new javax.swing.JMenuItem();
@@ -50,6 +51,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonAddConsulta);
         jButtonAddConsulta.setBounds(10, 41, 156, 33);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundotelaLogin.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(0, 0, 390, 290);
 
         jMenuCadastro.setText("Cadastros");
 
@@ -132,6 +138,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAddConsulta;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenuAgenda;
     private javax.swing.JMenuBar jMenuBarTelaPrincipal;
     private javax.swing.JMenu jMenuCadastro;
