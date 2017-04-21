@@ -59,6 +59,11 @@ public class telaLogin extends javax.swing.JFrame {
         jButton1.setBounds(310, 140, 75, 25);
 
         jButtonAcessarLogin.setText("Acessar");
+        jButtonAcessarLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAcessarLoginActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButtonAcessarLogin);
         jButtonAcessarLogin.setBounds(220, 140, 75, 25);
 
@@ -102,6 +107,11 @@ public class telaLogin extends javax.swing.JFrame {
     private void jTextFieldUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUsuarioActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldUsuarioActionPerformed
+
+    private void jButtonAcessarLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAcessarLoginActionPerformed
+        TelaPrincipal tela = new TelaPrincipal();
+        tela.setVisible(true);
+    }//GEN-LAST:event_jButtonAcessarLoginActionPerformed
 
     /**
      * @param args the command line arguments
