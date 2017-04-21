@@ -111,6 +111,7 @@ public class telaLogin extends javax.swing.JFrame {
     private void jButtonAcessarLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAcessarLoginActionPerformed
         TelaPrincipal tela = new TelaPrincipal();
         tela.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButtonAcessarLoginActionPerformed
 
     /**
