@@ -50,12 +50,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonAddConsulta);
-        jButtonAddConsulta.setBounds(10, 41, 156, 33);
+        jButtonAddConsulta.setBounds(20, 20, 150, 60);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundotelaLogin.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 390, 290);
+        jLabel1.setBounds(0, 0, 370, 230);
 
         jMenuCadastro.setText("Cadastros");
 
@@ -89,7 +89,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         setJMenuBar(jMenuBarTelaPrincipal);
 
-        setSize(new java.awt.Dimension(409, 348));
+        setSize(new java.awt.Dimension(389, 286));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
